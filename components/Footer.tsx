@@ -4,6 +4,7 @@ export default function Footer() {
       <h5>
         Created with ❤️ by{" "}
         <a
+          className="text-red-500"
           href="https://olubisi-david.vercel.app"
           target="_blank"
           rel="noreferrer"

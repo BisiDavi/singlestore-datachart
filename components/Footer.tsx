@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="bg-gray-900">
-      <h6>
+      <h5>
         Created with ❤️ by{" "}
         <a
           href="https://olubisi-david.vercel.app"
@@ -10,7 +10,7 @@ export default function Footer() {
         >
           Olubisi David
         </a>
-      </h6>
+      </h5>
     </footer>
   );
 }

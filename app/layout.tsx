@@ -10,9 +10,9 @@ export default function Layout({ children }: PropsWithChildren) {
         <title>Welcome to Data Charts | Generate Chart in minutes</title>
       </head>
       <body>
-        <main className="bg-white">
+        <main className="bg-zinc-200">
           <Header />
-          <div className="content container">{children}</div>
+          <div className="content container mx-auto py-4">{children}</div>
           <Footer />
         </main>
       </body>
